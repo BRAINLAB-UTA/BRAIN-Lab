@@ -110,6 +110,21 @@
         .social-icons a:hover { color: white; }
         .copyright { text-align: center; border-top: 1px solid #495057; padding-top: 1rem; font-size: 0.9rem; color: #adb5bd; }
 
+        /* Lab Outings Gallery */
+        .lab-outings { margin-top: 3rem; }
+        .lab-outings h2 { margin-bottom: 1.5rem; }
+        .outings-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .outings-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+        }
+
         /* Responsive Adjustments */
         @media (max-width: 768px) {
             nav ul.menu { display: none; /* Basic setup for mobile */ }
@@ -385,6 +400,13 @@
                         </div>
                     </div>
                     <a href="contact.html" class="btn primary-btn">Contact Us About Opportunities</a>
+                </div>
+
+                <div class="lab-outings">
+                    <h2>Lab Outings</h2>
+                    <div class="outings-grid">
+                        <img src="team_outtings/bbq_march2026.jpg" alt="Lab BBQ March 2026">
+                    </div>
                 </div>
             </div>
         </section>
