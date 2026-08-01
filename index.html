@@ -13,7 +13,26 @@
         .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
         header { background-color: #f8f9fa; padding: 1rem 0; border-bottom: 1px solid #e7e7e7; }
         header .container { display: flex; justify-content: space-between; align-items: center; }
-        .logo a { font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.5rem; color: #0056b3; text-decoration: none; }
+        /*.logo a { font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.5rem; color: #0056b3; text-decoration: none; }*/
+       
+        .logo a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .lab-logo {
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            display: block;
+            flex-shrink: 0;
+        }
+        
         nav ul.menu { list-style: none; padding: 0; margin: 0; display: flex; }
         nav ul.menu li { margin-left: 1.5rem; }
         nav ul.menu li a { text-decoration: none; color: #333; font-weight: 600; transition: color 0.3s ease; }
